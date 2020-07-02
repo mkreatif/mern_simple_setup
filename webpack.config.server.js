@@ -9,9 +9,9 @@ const config = {
     target: "node",
     output: {
         path: path.join(CURRENT_WORKING_DIR, '/dist/'),
-        filename: "sever.generated.js",
+        filename: "server.generated.js",
         publicPath: "/dist/",
-        libraryTarget: "commontjs2"
+        libraryTarget: "commonjs2"
     },
     externals: [nodeExternals()],
     module: {

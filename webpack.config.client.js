@@ -9,7 +9,7 @@ const config = {
     entry: [
         "react-hot-loader/patch",
         'webpack-hot-middleware/client?reload=true',
-        path.join(CURRENT_WORKING_DIR, 'client/main')
+        path.join(CURRENT_WORKING_DIR, 'client/main.js')
     ],
     output: {
         path: path.join(CURRENT_WORKING_DIR, '/dist'),

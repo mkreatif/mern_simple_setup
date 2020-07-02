@@ -1,7 +1,7 @@
 import express from "express";
 import devBundle from "./devBundle";
 import path from "path";
-import template from "./../template";
+import template from "../template";
 import { MongoClient } from "mongodb";
 
 let port = process.env.PORT || 3000;
