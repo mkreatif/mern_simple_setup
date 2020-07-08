@@ -6,6 +6,8 @@ class HelloWord extends Component {
         return (
             <div>
                 <h1>Hello World !</h1>
+                <p>Selamat Telah selesai membuat basic MERN STACK APP</p>
+                <p>OK BOSS</p>
             </div>
         )
     }
